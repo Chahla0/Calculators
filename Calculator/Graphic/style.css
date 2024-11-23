@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background-color:  #433D8B;
+    font-family: Arial, sans-serif;
+}
+
+#graphCanvas {
+    border: 2px solid #e10d90;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+button{
+    padding: 15px;
+    margin: 15px;
+    font-size: 1.2em;
+    background-color: #7776B3;
+    color: white;
+    border-radius: 20px;
+    border: solid yellow;
+}
+.input-section {
+    margin: 20px;
+}
+.labell{
+    background-color: white;
+    border:15px gold;
+    border-radius: 50px;
+    font-size: 1.5em;
+    line-height: 40px;
+    margin-top: 10px;
+}
+label{
+    color:bisque;
+}

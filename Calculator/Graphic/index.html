@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphing Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--<h1>Graphing Calculator</h1>-->
+
+    <div class="input-section">
+        <label for="functionInput"><strong>Enter function:</strong> </label><br>
+        <input class="labell" type="text" id="functionInput" placeholder="   f(x)=...">
+        <br>
+        <button onclick="plotGraph()">Click</button>
+    </div>
+
+    <canvas id="graphCanvas" width="600" height="400"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
